@@ -1,0 +1,24 @@
+.navbar {
+    border-radius: 20px 20px 0px 0px !important;
+    -webkit-border-radius: 20px 20px 0px 0px !important;
+    -moz-border-radius: 20px 20px 0px 0px !important;
+    -ms-border-radius: 20px 20px 0px 0px !important;
+    -o-border-radius: 20px 20px 0px 0px !important;
+}
+
+ul.navbar-nav li {
+    padding-left: 10px;
+}
+
+ul.navbar-nav li.contact {
+    padding-right: 40px;
+}
+
+/* costum navbar text */
+/* nav .navbar-nav li a{
+    color: #2C3333 !important;
+    }
+
+.navbar-brand {
+    color: #2C3333 !important;
+    } */

@@ -1,11 +1,11 @@
 .App {
-  text-align: center;
+  min-height: 100vh;
   background-image: url('bg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-.background {  
+/* .background {  
   background-color: rgba(0, 0, 0, 0.616);
 }
 
@@ -18,7 +18,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
     -webkit-animation: App-logo-spin infinite 20s linear;
-}
+  }
 }
 
 .App-header {
@@ -41,5 +41,9 @@
   }
   to {
     transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
   }
-}
+} */

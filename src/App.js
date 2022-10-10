@@ -1,20 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import bg from './bg.jpg'
 import './App.css';
-import Navbar from './Navbar';
+import Box from './Box';
 
 function App() {
   return (
     <div className="App">
-      <div className='background'>
-        <Navbar />
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>Muhammad Randy</h1>
-          <p>I'm currently learning about Reactjs</p>
-        </header>
-      </div>
+      <Box />
     </div>
   );
 }
